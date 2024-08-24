@@ -8,7 +8,7 @@ function App() {
   const link ="https://www.google.com";
   
   return (
-    <div className="deconstructorExample">
+    <div className="App">
         <div className="className">
             <h1>{ title }</h1> {/*short: h*/}
             <p>{ 10 }</p> {/*short: p*3*/}
@@ -16,6 +16,7 @@ function App() {
             <p>{ [1,2,3] }</p>
             <p>{ Math.random()*8 }</p> {/*functions are valid*/}
             <p>{ link }</p> 
+            <p>Functional Component and Deconstructors for dynamic variables</p> 
         </div>
     </div>
   
