@@ -1,10 +1,10 @@
 
-import './App.css';
+
 import Navbar from './Navbar';
 import Home from './Home';
 
 function App() {
-  const title= 'Welcome to React';
+  const title= 'div.ClassName is cool too';
   const likes = 50;
   // const person = {string: objects are not valid};
   const link ="https://www.google.com";
