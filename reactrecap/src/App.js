@@ -1,5 +1,7 @@
 
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
 
 function App() {
   const title= 'Welcome to React';
@@ -9,7 +11,9 @@ function App() {
   
   return (
     <div className="App">
-        <div className="className">
+        <Navbar />
+        <Home />
+        <div className="content">
             <h1>{ title }</h1> {/*short: h*/}
             <p>{ 10 }</p> {/*short: p*3*/}
             <p>{ "hello, coding journey" }</p> {/*hardcodes are valid*/}
